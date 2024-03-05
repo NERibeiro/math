@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo Ken Po</title>
+    <link rel="stylesheet" href="jokenpo.css">
+</head>
+<body>
+    
+
+<div class="container">
+    <h1>Jokenpo</h1>
+
+    <div class="buttons">
+
+    <button id="rock" onclick="playHuman('rock')">&#9994;&#127997</button>
+    <button id="paper" onclick="playHuman('paper')">&#128400;&#127997</button>
+    <button id="scissors" onclick="playHuman('scissors')">&#9996;&#127997</button>
+
+    </div>
+    <p class="result"></p>
+    
+    <p class="score">Sua Pontuação: <span id="human-score">0</span></p>
+    <p class="vsScore">Pontuação Adversária: <span id="machine-score">0</span></p>
+
+</div>
+<script src="jokenpo.js"></script>
+
+
+
+</body>
+</html>
