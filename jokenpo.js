@@ -36,7 +36,7 @@ const playTheGame = (human, machine) => {
         (human === 'scissors' && machine === 'paper')) {
             humanScoreNumber++
             humanScore.innerHTML = humanScoreNumber
-            result.innerHTML = "Você Ganhou!"
+            result.innerHTML = "O miserável é um gênio"
     }
     
 
@@ -44,7 +44,7 @@ const playTheGame = (human, machine) => {
     else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = "Perdeu Mané!"
+        result.innerHTML = "Você é só um verme insignificante"
     }
 
 
